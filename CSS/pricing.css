@@ -1,0 +1,577 @@
+body {
+    background-color: #F6F6FB;
+    font-family: 'Barlow', sans-serif;
+}
+
+/* Header Section */
+
+/* Navigation Bar Section */
+
+.header-background {
+    position: absolute;
+    width: 100%;
+    height: 150%;
+    z-index: -1;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+.navbar-div {
+    padding: 20px 70px 20px 70px;
+}
+
+.academy-logo {
+    width: 10rem;
+    height: 4.25rem;
+}
+
+.nav-link {
+    color: #FFFFFF !important;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    line-height: 125%;
+}
+
+.nav-item:nth-child(-n+3) {
+    padding: 0;
+    padding-right: 30px;
+}
+
+.sign-in-btn, .sign-up-btn {
+    color: #fff;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 20px;
+    border-color: #fff;
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding: 5px 25px 5px 25px;
+}
+
+.btn-link {
+    color: inherit;
+    text-decoration: none;
+}
+
+.btn-link:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+.nav-sign-in {
+    margin-right: 15px;
+}
+
+/* Pricing Front Section */
+
+.pricing-header {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.75rem;
+    line-height: 125%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.header-container {
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 50px 315px 25px;
+    position: relative;
+    left: 50px;
+}
+
+.pricing-pg {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.75rem;
+    line-height: 150%;
+    text-align: center;
+    color: #D9D9D9;
+    margin: 0 220px 145px;
+}
+
+/* Pricing Plan Section */
+
+#Pricing-Plan {
+    padding: 0 64px 100px;
+}
+
+.plan-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+}
+
+.basic-tier, .premium-plan {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    filter: drop-shadow(0px 4px 20px rgba(50, 50, 50, 0.2));
+}
+
+.price-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 40px;
+    background: #FFFFFF;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 12px 0px 0px 0px;
+    width: 100%;
+}
+
+.price-container3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 40px;
+    background: #FFFFFF;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0px 12px 0px 0px;
+    width: 100%;
+}
+
+.plan-name {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 150%;
+    color: #323232;
+}
+
+.price-tag {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 150%;
+    color: #323232;
+}
+
+.month {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 150%;
+    color: #636363;
+}
+
+.desc-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 32px;
+    gap: 40px;
+    background: #F5F5F5;
+    border-radius: 0px 0px 0px 12px;
+}
+
+.desc-container3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 32px;
+    gap: 40px;
+    background: #F5F5F5;
+    border-radius: 0px 0px 12px 0px;
+}
+
+.desc-items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+}
+
+.desc-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+}
+
+.advantage {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    color: #636363;
+}
+
+.get-started-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px;
+    gap: 4px;
+    background: rgba(77, 66, 249, 0.1);
+    border: 1px solid #0063B2;
+    border-radius: 8px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    color: #0063B2;
+    width: 100%;
+}
+
+.blue-background {
+    box-sizing: border-box;
+    position: relative;
+    width: 550px;
+    border-width: 80px 4px 4px 4px;
+    border-style: solid;
+    border-color: #0063B2;
+    border-radius: 12px;
+}
+
+.popular-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -55px;
+    left: 35%;
+    padding: 0px;
+    gap: 8px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.essential-text {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+}
+
+.plan2-name {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 150%;
+    color: #323232;
+}
+
+.price2-tag {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 88px;
+    line-height: 150%;
+    color: #323232;
+}
+
+.month2 {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 150%;
+    color: #636363;
+}
+
+.price2-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 40px;
+    background: #FFFFFF;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 12px 12px 0px 0px;
+    width: 100%;
+}
+
+.desc2-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px;
+    gap: 40px;
+    background: #F5F5F5;
+    border-radius: 0px 0px 12px 12px;
+}
+
+.desc2-items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+}
+
+.desc2-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+}
+
+.advantage2 {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    color: #636363;
+}
+
+.get-started-btn2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px;
+    gap: 4px;
+    background: #0063B2;
+    border-radius: 8px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    color: #FFFFFF;
+    width: 100%;
+}
+
+/* CTA Section */
+
+#cta {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 80px 64px;
+    width: 100%;
+    gap: 48px;
+    background: #FCFCFC;
+}
+
+.cta-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 150px;
+    gap: 8px;
+    isolation: isolate;
+    background: #0063B2;
+    border-radius: 12px;
+    position: relative;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0px;
+    gap: 24px;
+}
+
+.card-h2 {   
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 125%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.card-h3 {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 150%;
+    text-align: center;
+    color: #F6F6FB;
+}
+
+.actions {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 0px 0px;
+    gap: 16px;
+}
+
+.cta-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 24px;
+    gap: 4px;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.eclipse1 {
+    position: absolute;
+    width: 723px;
+    height: 723px;
+    left: calc(50% - 723px/2 + 0.5px);
+    top: calc(50% - 723px/2 - 0.5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    z-index: 0;
+}
+
+.eclipse2 {
+    position: absolute;
+    width: 895px;
+    height: 895px;
+    left: calc(50% - 895px/2 + 0.5px);
+    top: calc(50% - 895px/2 - 0.5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    z-index: 0;
+}
+
+
+/* Contact Section */
+
+#Contact {
+    background-color: #000000;
+    padding: 80px 60px 40px 60px;
+    color: #FFFFFF;
+    position: relative;
+    z-index: 1;
+}
+
+.contact-logo {
+    height: 145px;
+}
+
+.first-contact-section {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+}
+
+.second-contact-section {
+    display: flex;
+    flex-direction: row;
+    gap: 180px;
+}
+
+.links-stuff {
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+}
+
+.stuff {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.copyright {
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+    align-items: center;
+}
+
+.links-stuff-header {
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 125%;
+    width: 200px;
+}
+
+.about-us-pg, .first-links, .second-links {
+    font-weight: 500;
+    font-size: 1.75rem;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.first-links a, .second-links a, .third-links a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.third-links {
+    font-weight: 400;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.first-links a:hover, .second-links a:hover, .third-links a:hover {
+    line-height: 125%;
+    text-decoration: underline;
+}
+
+.social-media-links {
+    margin-top: 10px;
+}
+
+.copyright-pg {
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-top: 16px;
+}
+
+.contact-hr {
+    background-color: #FFFFFF;
+    height: 2px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}

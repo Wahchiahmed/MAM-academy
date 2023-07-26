@@ -1,0 +1,492 @@
+body {
+    background-color: #F6F6FB;
+    font-family: 'Barlow', sans-serif;
+}
+
+/* Navigation Bar Section */
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+.navbar-div {
+    padding: 20px 70px 20px 70px;
+}
+
+.academy-logo {
+    width: 10rem;
+    height: 4.25rem;
+}
+
+.nav-item {
+    color: #1E1E1E;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    line-height: 125%;
+}
+
+.nav-item:nth-child(-n+3) {
+    padding: 0;
+    padding-right: 30px;
+}
+
+.sign-in-btn {
+    color: #0063B2;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 20px;
+    border-color: #0063B2;
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding: 5px 25px 5px 25px;
+}
+
+.sign-in-btn:hover {
+    background-color: #0063B2;
+    color: #fff;
+}
+
+.btn-link {
+    color: inherit;
+    text-decoration: none;
+}
+
+.btn-link:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+.nav-sign-in {
+    margin-right: 15px;
+}
+
+.sign-up-btn {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 20px;
+    border-color: #0063B2;
+    background-color: #0063B2;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding: 5px 25px 5px 25px;
+}
+
+.sign-up-btn:hover {
+    border-color: #004C8C;
+    background-color: #004C8C;
+    color: #FFFFFF;
+}
+
+/* Introduction Section */
+
+#Introduction {
+    padding: 45px 70px 50px;
+}
+
+.intro-header {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: auto;
+    color: #000000;
+    margin-bottom: 25px;
+}
+
+.intro-pg {
+    font-weight: 500;
+    font-size: 1.75rem;
+    line-height: auto;
+    color: #404040;
+}
+
+.help-pg {
+    font-weight: 500;
+    font-size: 1.625rem;
+    line-height: auto;
+    color: #000000;
+    margin-bottom: 40px;
+}
+
+.help-btn {
+    padding: 10px 30px;
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: #FFFFFF;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #0063B2;
+    background-color: #0063B2;
+}
+
+.help-btn:hover {
+    border-color: #004C8C;
+    background-color: #004C8C;
+    color: #FFFFFF;
+}
+
+.help-text {
+    padding: 20px;
+    background-color: #FFFFFF;
+    width: 400px;
+}
+
+.intro-text {
+    padding-left: 0;
+    padding-right: 35px;
+}
+
+/* Courses Types Section */
+
+#Courses-Types {
+    padding: 40px 70px 50px;
+}
+
+
+.type-text {
+    padding: 15px 40px;
+    border-radius: 20px;
+    background-color: #F6F6FB;
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: auto;
+    color: #000000;
+    display: inline-block;
+    position: absolute;
+    left: 35%;
+    z-index: 1;
+}
+
+.types-container {
+    padding: 96px 53px 97px;
+    border-style: solid;
+    border-radius: 30px;
+    border-width: 2px;
+    border-color: #d9d9d9;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.first-row, .second-row {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.types-btn {
+    padding: 10px 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20px;
+    border-color: #0063B2;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: auto;
+    color: #0063B2;
+}
+
+.type-explore {
+    position: relative;
+    padding-top: 40px;
+}
+
+.types-btn:hover {
+    background-color: #0063B2;
+    color: #fff;
+}
+
+.active-btn {
+    background-color: #0063B2;
+    color: #fff;
+}
+
+.active-btn:hover {
+    border-color: #004C8C;
+    background-color: #004C8C;
+    color: #FFFFFF;
+}
+
+/* Courses Section */
+
+#Courses-Section {
+    padding: 70px 55px 30px 70px;
+}
+
+.courses-container {
+    padding: 0;
+}
+
+.courses-row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.courses-row1 {
+    margin-bottom: 80px;
+}
+
+.course {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    width: 400px;
+    height: auto;
+}
+
+.course1, .course2 {
+    margin-right: 10px;
+}
+
+.course-description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 25px 25px;
+    gap: 40px;
+}
+
+.course-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+}
+
+.additional-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+}
+
+.course-name {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 26px;
+    color: #000000;
+}
+
+.additional-desc {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+}
+
+.time, .lessons, .mentor-name {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 17px;
+    color: #404040;
+    margin: 0;
+}
+
+.course-desc {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 125%;
+    color: #373F49;
+}
+
+.buttons-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+}
+
+.details1-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 40px;
+    gap: 10px;
+    background: #0063B2;
+    border-radius: 10px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.details1-btn:hover {
+    border-color: #004C8C;
+    background-color: #004C8C;
+    color: #FFFFFF;
+}
+
+.details2-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 40px;
+    gap: 10px;
+    border: 1px solid #0063B2;
+    border-radius: 10px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #0063B2;
+}
+
+.details2-btn:hover {
+    background-color: #0063B2;
+    color: #fff;
+}
+
+.mentor-name-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+}
+
+/* Pagination Section */
+
+
+#pagination {
+    margin-bottom: 80px;
+}
+
+.page-link {
+    color: #0063B2;
+}
+
+.page-link:hover {
+    background-color: #0063B2;
+    color: #fff;
+}
+
+.page-link1 {
+    color: #FFFFFF;
+    background-color: #0063B2;
+}
+
+.page-link1:hover {
+    border-color: #004C8C;
+    background-color: #004C8C;
+    color: #FFFFFF;
+}
+
+/* Contact Section */
+
+#Contact {
+    background-color: #000000;
+    padding: 80px 60px 40px 60px;
+    color: #FFFFFF;
+}
+
+.contact-logo {
+    height: 145px;
+}
+
+.first-contact-section {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+}
+
+.second-contact-section {
+    display: flex;
+    flex-direction: row;
+    gap: 180px;
+}
+
+.links-stuff {
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+}
+
+.stuff {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.copyright {
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+    align-items: center;
+}
+
+.links-stuff-header {
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 125%;
+    width: 200px;
+}
+
+.about-us-pg, .first-links, .second-links {
+    font-weight: 500;
+    font-size: 1.75rem;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.first-links a, .second-links a, .third-links a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.third-links {
+    font-weight: 400;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.first-links a:hover, .second-links a:hover, .third-links a:hover {
+    line-height: 125%;
+    text-decoration: underline;
+}
+
+.social-media-links {
+    margin-top: 10px;
+}
+
+.copyright-pg {
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-top: 16px;
+}
+
+.contact-hr {
+    background-color: #FFFFFF;
+    height: 2px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
